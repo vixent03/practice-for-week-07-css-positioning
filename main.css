@@ -1,71 +1,68 @@
-html, body {
-    font-family: sans-serif;
-}
-
-.container {
-    background-color: #2b2d2f;
-    position: relative;
-}
-
-.element {
-    box-sizing: border-box;
-    display: inline-block;
-    width: 100px;
-    height: 280px;
-    font-size: 36px;
-}
-
-#yellow-box {
-    background-color: #ffff00;
-    /* Fill these in
-    position: ;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: ;
-}
-
-#pink-box {
-    background-color: #ff69b4;
-    /* Fill these in
-    position: ;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: ;
-}
-
-#blue-box {
-    background-color: #00eeee;
-    /* Fill these in
-    position: ;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: ;
-}
-
-#red-box {
-    background-color: #ff0000;
-    /* Fill these in
-    position: ;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: ;
-}
-
-#orange-box {
-    background-color: #ffa500;
-    /* Fill these in
-    position: ;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: ;
-}
+            html,
+            body {
+                font-family: sans-serif;
+            }
+            
+            .container {
+                background-color: #2b2d2f;
+                position: relative;
+            }
+            
+            .element {
+                box-sizing: border-box;
+                display: inline-block;
+                width: 100px;
+                height: 280px;
+                font-size: 36px;
+            }
+            
+            #yellow-box {
+                background-color: #ffff00;
+                position: relative;
+                bottom: ;
+                left: ;
+                right: ;
+                top: ;
+                z-index: 1;
+            }
+            
+            #pink-box {
+                background-color: #ff69b4;
+                position: ;
+                bottom: 0;
+                left: ;
+                right: 20px;
+                top: 80px;
+                z-index: 2;
+            }
+            
+            #blue-box {
+                background-color: #00eeee;
+                position: absolute;
+                bottom: 0;
+                left: 480px;
+                right: ;
+                top: 10px;
+                z-index: 3;
+            }
+            
+            #red-box {
+                background-color: #ff0000;
+                position: relative;
+                bottom: 0;
+                left: 320px;
+                right: ;
+                top: 40px;
+                z-index: 4;
+            }
+            
+            #orange-box {
+                background-color: #ffa500;
+                position: fixed;
+                bottom: ;
+                ;
+                left: 560px;
+                right: ;
+                top: 170px;
+                z-index: 5;
+            }
